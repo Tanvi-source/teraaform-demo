@@ -1,5 +1,4 @@
 provider "aws" {
-  region     = var.region
-  access_key = var.aws_access_key
-  secret_key = var.aws_secret_key
+  region = var.region
+  # Terraform automatically picks up AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY from environment
 }
